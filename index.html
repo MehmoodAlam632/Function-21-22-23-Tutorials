@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Function</title>
 </head>
+
 <body>
     <h1>Hello Mehmood Alam</h1>
 
@@ -37,24 +39,48 @@
         // myName();
         // my_name();
 
-                //Function with parameters//
+        //Function with parameters//
         // function fullName(firstName = "Mehmood", lastName = "Alam") {
         //     document.write("Assalam O Alaikum " + firstName + " "  + lastName + "<br>");
         // }
         // fullName("Anwar", "Hussain");
         // fullName("Zeeshan", "Khan");
 
-            //sum//
-        // function sum(a, b, c){
-        //     document.write(a+b + "<br/>");
+        //sum//
+        // function sum(message, a, b, c){
+        //     // document.write(`${message} : ${a+b-c}`);
+        //     console.log(`${message} : ${a+b-c}`);
         // }
-        // sum(25, 25);
-        // sum(35, 25);
-        // sum(45, 25,);
-        // sum(55, 25);
-        // sum(65, 25);
-        // sum(85, 25);
+        // sum('First line' ,25, 25, 10, );
+        // sum('Second line', 25, 35, 10);
+        // sum('Third line',25, 25, 10);
+
+
+        // Types of Function
+
+        // 1. With no parameter and no return
+        // 2. With parameter(s) and no return
+        // 3. With no parameter(s) and return
+        // 4. With parameter(s) and return
+
+        function sum(a, b) {
+            console.log(`${a} + ${b} = ${a + b}`);
+        }
+        function subtract(a,b) {
+            return a - b;
+        }
+
+        // sum(3, 6);
+        let result = subtract(71,1);
+        console.log(`Result = ${result}`);
+        if(result > 60) {
+            console.log('Good job');
+        } else {
+            console.log('Need more effort');
+        }
+
 
     </script>
 </body>
+
 </html>
